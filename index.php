@@ -23,7 +23,7 @@
         {
 
             $count = 1;
-            $fp = fopen('file.csv', 'a');
+            $fp = fopen('file.csv', 'w');
             for($i = 1; $i<=113; $i++)
             {
                 $link = $url.strval($i); 
